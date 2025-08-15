@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #281C32;
+    margin-bottom: 25px;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #23001E;
+    background-image: url('vecteezy_beautiful-blue-mountain-landscape-with-sunrise-and-sunset-in_7162596-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    background-color: #fff;
+    width: 350px;
+    aspect-ratio: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #fff;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid #23001E;
+    border-radius: 5px;
+    padding: 7px 12px;
+    font-size: 1.2rem;
+}
+
+#submitBtn{
+    padding: 7px 12px;
+    background-color: none;
+    border: 1px solid #23001E;
+    border-radius: 5px;
+    margin: 40px auto;
+    font-size: 1.1rem;
+}
+
+#result{
+    font-size: 1.7rem;
+    width: 80%;
+    color: #23001E;
+}
+
+@media screen and (max-width: 420px) {
+    form{
+        width: 300px;
+    }
+}
