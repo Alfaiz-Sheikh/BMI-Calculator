@@ -17,18 +17,26 @@ bmiForm.addEventListener("submit", function(e) {
     switch(true){
         case (bmi < 18.5):
             result = "UnderWeight";
+            category.style.color = "red";
+            bmiValue.style.color = "red";
             break;
 
         case (bmi >= 18.5 && bmi <= 24.9):
             result = "Normal Weight";
+            category.style.color = "green";
+            bmiValue.style.color = "green";
             break;
 
         case (bmi >= 25 && bmi <= 29.9):
             result = "OverWeight";
+            category.style.color = "red";
+            bmiValue.style.color = "red";
             break;
 
         case (bmi >= 30):
             result = "Obesity";
+            category.style.color = "maroon";
+            bmiValue.style.color = "maroon";
             break;    
             
         default:

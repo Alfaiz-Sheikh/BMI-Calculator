@@ -53,8 +53,9 @@ input{
 
 #result{
     font-size: 1.4rem;
-    width: 80%;
+    width: 90%;
     color: #23001E;
+    text-align: center;
 }
 
 @media screen and (max-width: 420px) {
